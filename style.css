@@ -1,20 +1,65 @@
-#seconddiv {
-    width: 1%;
-    height: 30px;
-    border-radius: 3px;
-    background-color: red;
+/* Styling for year container and bars */
+.year-container {
+    margin-top: 20px;
+    color: white;
 }
 
-#firstdiv {
-    border-radius: 1px;
-    border-color: black;
+.h1 {
+    color: white;
 }
 
 .meter {
-    background: #555;
-    -moz-border-radius: 25px;
-    -webkit-border-radius: 25px;
+    background-color: #555;
     border-radius: 25px;
     padding: 10px;
     box-shadow: inset 0 -1px 1px rgba(255, 255, 255, 0.3);
+    width: 600px;
+    margin: auto;
+}
+
+.progress-bar {
+    background-color: red; /* Explicit background color */
+    height: 30px;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+}
+body{
+   background: linear-gradient(to right, #0f2027ed, #203a43, #2c5364);
+}
+
+body {
+    background-color: #333; /* Example background color */
+    color: white; /* Text color for better visibility */
+}
+.entry {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.year-container {
+    margin-top: 20px;
+}
+
+#title {
+    background: linear-gradient(135deg, #ff7e5f, #feb47b); /* Gradient background */
+    color: white; /* Text color */
+    font-size: 3rem; /* Large font size for the title */
+    text-align: center; /* Center the text */
+    padding: 20px 0; /* Vertical padding for height */
+    margin: 0; /* Remove default margin */
+    width: 100%; /* Full width */
+    position: relative; /* Position relative for full width effect */
+    z-index: 1; /* Ensure it stays above any background elements */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+}
+
+#subtitle {
+    font-size: 1.5rem; /* Slightly smaller than title */
+    color: #337ab7; /* Bright blue color */
+    letter-spacing: 1px; /* Increase space between letters */
+    line-height: 1.5; /* Better spacing between lines */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+    animation: slide 3s ease-in-out infinite; /* Sliding animation */
+    margin: 15px 0; /* Margin for spacing */
 }
